@@ -1,0 +1,30 @@
+.inicio_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5em;
+}
+
+.inicio_container h1 {
+  font-size: 2.5em;
+  margin-bottom: 1em;
+}
+
+.inicio_container h1 span {
+  color: #fb3;
+  padding: 0.25em 0.5em 0.25em 0.5em;
+  background-color: #222;
+  border-radius: 30px;
+}
+
+.inicio_container p {
+  margin-bottom: 2em;
+  color: #7b7b7b;
+}
+
+.inicio_container img {
+  width: 350px;
+  margin: 3em 0;
+}

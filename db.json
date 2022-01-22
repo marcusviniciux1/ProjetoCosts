@@ -1,0 +1,33 @@
+{
+  "projetos": [
+    {
+      "name": "Marcus Vinícius ",
+      "budget": "5000",
+      "categoria": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "servicos": [],
+      "id": 2
+    }
+  ],
+  "categorias": [
+    {
+      "id": 1,
+      "name": "Design"
+    },
+    {
+      "id": 2,
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": 3,
+      "name": "Infraestrutura"
+    },
+    {
+      "id": 4,
+      "name": "Planejamento"
+    }
+  ]
+}

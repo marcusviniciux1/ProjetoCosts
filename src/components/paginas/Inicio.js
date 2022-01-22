@@ -1,0 +1,19 @@
+import styles from "./Inicio.module.css";
+
+import savings from "../../img/savings.svg";
+import LinkButton from "../layout/LinkButton";
+
+function Inicio() {
+  return (
+    <section className={styles.inicio_container}>
+      <h1>
+        Bem-vindo(a) ao <span>Costs!</span>
+      </h1>
+      <p>Comece a gerenciar os seus projetos agora mesmo!</p>
+      <LinkButton to="/novoprojeto" text="Criar projeto" />
+      <img src={savings} alt="Costs" />
+    </section>
+  );
+}
+
+export default Inicio;
